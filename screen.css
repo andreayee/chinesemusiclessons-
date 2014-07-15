@@ -88,7 +88,7 @@ body {
   background-attachment: fixed;
   background-repeat: no-repeat;
   text-align: center;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   /*font-size: 18px;*/
   line-height: 1.5em;
   padding-top: 2em;
@@ -137,4 +137,97 @@ img {
 
 p {
   padding: 3%;
+}
+
+@media only screen and (max-width: 600px) {
+  .instrument {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 601px) {
+  h1 {
+    font-size: 60px;
+    line-height: 1em;
+  }
+
+  h2 {
+    font-size: 42px;
+  }
+
+  h3 {
+    font-size: 36px;
+  }
+
+  html {
+    height: 100%;
+  }
+
+  body {
+    background-image: none;
+    font-size: 20px;
+    height: 100%;
+  }
+
+  .container {
+    /*padding-top: 5%;*/
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .header {
+    width: 100%;
+    left: 0;
+  }
+
+  .headerimage {
+    background-image: url("photos/mandy.jpg");
+    height: 600px;
+    max-width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+  }
+
+  .headerimagetext {
+    padding: 2em;
+    /*font-size: 60px;*/
+  }
+
+  img {
+    display: none;
+  }
+
+  .section {
+    height: 100%;
+    max-width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+  }
+
+  .intro {
+    background-image: url("photos/guzhengwoods.jpg");
+    height: 1000px;
+    max-width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+  }
+
+  div {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 0;
+    margin: 0;
+    /*border: 1px solid blue;*/
+  }
+}
+.contacttext {
+  margin: 0;
+}
+
+.pure-g {
+  display: inline-block;
+  padding: 0px;
+  margin: 0px;
+  /*background-color: rgba(255,255,255,.5);*/
 }
