@@ -26,12 +26,15 @@ a {
 
 body {
   width: 100%;
-  background-image: url('flowers.jpg');
+  background-image: url('goldengate.jpg');
   background-position: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
   text-align: center;
-  font-family: 'Open Sans'
+  font-family: 'Open Sans';
+  /*font-size: 18px;*/
+  line-height: 1.5em;
+  padding-top: 2em;
 
 }
 
@@ -42,11 +45,21 @@ header {
   left: 5%;
   width: 90%;
   z-index: 100;
+  top: 0;
+  padding-top: 1em;
 
   nav {
     display: inline-block;
-   
-    
+    padding-bottom: .5em;
+    padding-top: .5em;
+
+    a:hover {
+      color: black;
+    }
+    a:active {
+      color: black;
+
+    } 
   }
 }
 
@@ -63,6 +76,8 @@ top: 75%;
 }
 img {
   width: 100%;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 p {
   padding: 3%;
@@ -70,4 +85,5 @@ p {
 
 
 
- 
+
+
