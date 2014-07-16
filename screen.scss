@@ -26,7 +26,7 @@ a {
 
 body {
   width: 100%;
-  background-image: url('goldengate.jpg');
+  /*background-image: url('goldengate.jpg');*/
   background-position: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -42,8 +42,8 @@ header {
   position: fixed;
   background-color: rgba(255,255,255,.9);
   text-align: center;
-  left: 5%;
-  width: 90%;
+  /*left: 5%;*/
+  width: 100%;
   z-index: 100;
   top: 0;
   padding-top: 1em;
@@ -65,9 +65,10 @@ header {
 
 .container {
   background-color: rgba(255,255,255,.8);
-  width: 90%;
-  left: 5%;
+  width: 100%;
+  /*left: 5%;*/
   margin: 0 auto;
+  background-image: none;
 }
 
 .main {
@@ -82,6 +83,8 @@ img {
 p {
   padding: 3%;
 }
+
+
 
 
 @import "media";

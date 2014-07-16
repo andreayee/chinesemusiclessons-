@@ -83,7 +83,7 @@ a {
 
 body {
   width: 100%;
-  background-image: url("goldengate.jpg");
+  /*background-image: url('goldengate.jpg');*/
   background-position: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -98,8 +98,8 @@ header {
   position: fixed;
   background-color: rgba(255, 255, 255, 0.9);
   text-align: center;
-  left: 5%;
-  width: 90%;
+  /*left: 5%;*/
+  width: 100%;
   z-index: 100;
   top: 0;
   padding-top: 1em;
@@ -118,9 +118,10 @@ header nav a:active {
 
 .container {
   background-color: rgba(255, 255, 255, 0.8);
-  width: 90%;
-  left: 5%;
+  width: 100%;
+  /*left: 5%;*/
   margin: 0 auto;
+  background-image: none;
 }
 
 .main {
@@ -144,6 +145,10 @@ p {
   }
 }
 @media only screen and (min-width: 601px) {
+  * {
+    max-width: 2000px;
+  }
+
   h1 {
     font-size: 60px;
     line-height: 1em;
@@ -180,7 +185,7 @@ p {
 
   .headerimage {
     background-image: url("photos/mandy.jpg");
-    height: 600px;
+    height: 750px;
     max-width: 100%;
     background-size: cover;
     background-attachment: fixed;
@@ -214,18 +219,63 @@ p {
   }
 
   div {
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 2%;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 3% 15%;
     /*border: 1px solid blue;*/
   }
-}
-.contacttext {
-  margin: 0;
-}
 
-.pure-g {
-  display: inline-block;
-  padding: 0px;
-  margin: 0px;
-  /*background-color: rgba(255,255,255,.5);*/
+  .homecontacttext {
+    margin: 0;
+  }
+
+  .pure-g {
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+    /*background-color: rgba(255,255,255,.5);*/
+  }
+
+  .pure-u-1-2 {
+    padding: 3% 3%;
+  }
+
+  .recital {
+    background-image: url(photos/grouprecital.jpg);
+    height: 650px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+  }
+
+  .classes-pipa {
+    background-image: url(photos/traditionalpipa.jpg);
+    height: 750px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+  }
+
+  .classes-guzheng {
+    background-image: url(photos/mandyblue.jpg);
+    height: 750px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+  }
+
+  .prices {
+    background-image: url(photos/21.jpg);
+    height: 750px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+  }
+
+  .contact {
+    background-image: url(photos/studio.jpg);
+    height: 750px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+  }
 }
