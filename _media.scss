@@ -31,12 +31,11 @@
 		display: none;
 	}
 
-	
-
 	body {
 		background-image: none;
 		font-size: 20px;
 		height: 100%;
+		padding-top: 100px;
 	}
 
 	div {
@@ -65,21 +64,9 @@
 
 	.headerimagebackground {
 		background-image: url('photos/mandy.jpg');
-				height: 750px;
-	 
-	 /* background-size: cover; 
-	  background-attachment: fixed;
-	  background-position: center;*/
-
+		height: 750px;
+	
 	}
-
-	/*.headerimagetext {
-		padding: 2em;
-		}*/
-
-
-	
-	
 
 	.intro {
 		background-image: url('photos/guzhengwoods.jpg');
@@ -96,10 +83,6 @@
 			padding: 3% 3%;
 		}
 	}
-
-	
-
-
 
 /*Classes Page*/
 	.recital {
