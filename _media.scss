@@ -6,9 +6,15 @@
 
 
 @media only screen and (min-width: 601px) {
-* {
-	max-width: 2000px;
-}
+
+	* {
+		max-width: 2000px;
+	}
+
+	html {
+		height: 100%;
+	}
+
 	h1 {
 		font-size: 60px;
 		line-height: 1em;
@@ -21,128 +27,110 @@
 	h3 {
 		font-size: 36px;
 	}
-
-	html {
-		height: 100%;
+	img {
+		display: none;
 	}
+
+	
+
 	body {
 		background-image: none;
 		font-size: 20px;
 		height: 100%;
 	}
 
+	div {
+		background-color: rgba(255,255,255,.9);
+		padding: 3% 15%;
+		max-width: 2000px;
+		 background-size: cover; 
+	  background-attachment: fixed;
+	  background-position: center; 
+	}
+
+	section {
+	  max-width: 2000px;
+	  background-size: cover; 
+	  background-attachment: fixed;
+	  background-position: center;
+	}
+
 	.container {
-		/*padding-top: 5%;*/
+
 		width: 100%;
+		/*max-width: 2000px;*/
 		margin: 0 auto;
-
-
 	}
-	.header {
-		width: 100%;
-		left: 0;
-	}
+	
 
-	.headerimage {
+	.headerimagebackground {
 		background-image: url('photos/mandy.jpg');
 				height: 750px;
-	  max-width: 100%;
-	  background-size: cover; 
+	 
+	 /* background-size: cover; 
 	  background-attachment: fixed;
-	  background-position: center;
+	  background-position: center;*/
 
 	}
 
-	.headerimagetext {
+	/*.headerimagetext {
 		padding: 2em;
-		/*font-size: 60px;*/
-		}
+		}*/
 
 
-	img {
-		display: none;
-	}
-	.section {
-	  height: 100%;
-	  max-width: 100%;
-	  background-size: cover; 
-	  background-attachment: fixed;
-	  background-position: center;
-	}
+	
+	
 
 	.intro {
 		background-image: url('photos/guzhengwoods.jpg');
 		height: 1000px;
-		max-width: 100%;
-		background-size: cover; 
-		background-attachment: fixed;
-		background-position: center;
-	}
-
-	div {
-		background-color: rgba(255,255,255,.9);
-		padding: 3% 15%;
-		/*border: 1px solid blue;*/
+		
 	}
 
 
+	.pure-g {
+		display: inline-block;
+		padding: 0px;
+		margin: 0px;
+		.pure-u-1-2 {
+			padding: 3% 3%;
+		}
+	}
 
-
-.homecontacttext {
-	margin: 0;
-}
-
-.pure-g {
-	display: inline-block;
-	padding: 0px;
-	margin: 0px;
-	/*background-color: rgba(255,255,255,.5);*/
-}
-
-.pure-u-1-2 {
-	padding: 3% 3%;
-}
+	
 
 
 
-
-.recital {
-	background-image: url(photos/grouprecital.jpg);
-	height: 650px;
-	background-size: cover; 
-	background-attachment: fixed;
-	background-position: center;
+/*Classes Page*/
+	.recital {
+		background-image: url(photos/grouprecital.jpg);
+		height: 650px;
+	
 	}
 
 	.classes-pipa {
 		background-image: url(photos/traditionalpipa.jpg);
 		height: 750px;
-		background-size: cover; 
-		background-attachment: fixed;
-		background-position: center;
-		}
+
+	}
 	.classes-guzheng {
 		background-image: url(photos/mandyblue.jpg);
 		height: 750px;
-		background-size: cover; 
-		background-attachment: fixed;
-		background-position: center;
+
 
 	}
+
 	.prices {
-	background-image: url(photos/21.jpg);
-	height: 750px;
-	background-size: cover; 
-	background-attachment: fixed;
-	background-position: center;	
+		background-image: url(photos/21.jpg);
+		height: 750px;
+
 	}
 
+/*Contact Page*/
 	.contact {
 		background-image: url(photos/studio.jpg);
 		height: 750px;
-		background-size: cover; 
-		background-attachment: fixed;
-		background-position: center;
+
 
 	}
 
