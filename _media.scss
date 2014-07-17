@@ -59,24 +59,42 @@
 		margin: 0 auto;
 	}
 	
-
+/*Index Page*/
 	.headerimagebackground {
 		background-image: url('photos/mandy.jpg');
 		height: 750px;
+		position: relative;
 	
+	}
+
+	.headerimagetext {
+		position: absolute;
+		top: 55%;
+		width: 100%;
+		padding: 5%;
 	}
 
 	.intro {
 		background-image: url('photos/guzhengwoods.jpg');
 		height: 1000px;
-		
+		position: relative;
+	}
+
+	.introtext {
+		position: absolute;
+		top: 65%;
+	}
+
+	.homecontactbackground {
+		background-image: url('photos/21.jpg');
+		height: 1000px;
+
 	}
 
 
 	.pure-g {
 		display: inline-block;
 		padding: 0px;
-		margin: 0px;
 		.pure-u-1-2 {
 			padding: 3% 3%;
 		}
