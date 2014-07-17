@@ -1,48 +1,57 @@
 @import "reset";
 
 h1 {
-  font-size: 32px;
-  /*font-weight: black;*/
+  font-size: 36px;
   font-family: 'Ostrich Sans';
+  line-height: 1em;
 }
 
 h2 {
-  font-size: 28px;
-  /*font-weight: bold;*/
+  font-size: 32px;
   font-family: 'Ostrich Sans';
 }
 h3 {
-  font-size: 22px;
-  /*font-weight: bold;*/
+  font-size: 28px;
   font-family: 'Ostrich Sans';
 }
 a {
   text-decoration: none;
   color: gray;
-    /*:hover {
-      color: gray;
-    }*/
+    :hover {
+      color: black;
+    }
+    :active {
+      color: black;
+
+    }  
+}
+
+img {
+  width: 100%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  display: inline-block;
+}
+
+p {
+  padding: 3%;
 }
 
 body {
   width: 100%;
-  /*background-image: url('goldengate.jpg');*/
-  background-position: cover;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
+  font-size: 18px;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
-  /*font-size: 18px;*/
   line-height: 1.5em;
-  padding-top: 2em;
+  padding-top: 60px;
+  padding-bottom: 2em;
 
 }
 
 header {
   position: fixed;
-  background-color: rgba(255,255,255,.9);
+  background-color: rgba(255,255,255,.95);
   text-align: center;
-  /*left: 5%;*/
   width: 100%;
   z-index: 100;
   top: 0;
@@ -51,38 +60,19 @@ header {
   nav {
     display: inline-block;
     padding-bottom: .5em;
-    padding-top: .5em;
-
-    a:hover {
-      color: black;
-    }
-    a:active {
-      color: black;
-
-    } 
+    padding-top: .5em;  
   }
 }
 
-.container {
+
+
+/*.container {
   background-color: rgba(255,255,255,.8);
   width: 100%;
-  /*left: 5%;*/
   margin: 0 auto;
   background-image: none;
-}
+}*/
 
-.main {
-top: 75%;
-}
-img {
-  width: 100%;
-  margin-top: 1em;
-  margin-bottom: 1em;
-  display: inline-block;
-}
-p {
-  padding: 3%;
-}
 
 /*gallery page*/
 

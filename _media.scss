@@ -1,11 +1,11 @@
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 749px) {
 	.instrument{
 		width: 100%;
 	}
 }
 
 
-@media only screen and (min-width: 601px) {
+@media only screen and (min-width: 750px) {
 
 	* {
 		max-width: 2000px;
@@ -30,7 +30,6 @@
 	img {
 		display: none;
 	}
-
 	body {
 		background-image: none;
 		font-size: 20px;
@@ -42,9 +41,9 @@
 		background-color: rgba(255,255,255,.9);
 		padding: 3% 15%;
 		max-width: 2000px;
-		 background-size: cover; 
-	  background-attachment: fixed;
-	  background-position: center; 
+		background-size: cover; 
+	  	background-attachment: fixed;
+	  	background-position: center; 
 	}
 
 	section {
@@ -57,7 +56,6 @@
 	.container {
 
 		width: 100%;
-		/*max-width: 2000px;*/
 		margin: 0 auto;
 	}
 	
@@ -99,18 +97,18 @@
 	.classes-guzheng {
 		background-image: url('photos/mandyblue.jpg');
 		height: 750px;
-
-
 	}
 
 	.prices {
 		background-image: url('photos/21.jpg');
 		height: 750px;
-
 	}
 
 /*About Page*/
-
+	.mandypost {
+		background-image: url('photos/mandypost.jpg');
+		height: 400px;
+	}
 	.bogofusion {
 		background-image: url('photos/bogofusion.jpg');
 		height: 600px;
@@ -120,13 +118,12 @@
 	.contact {
 		background-image: url('photos/studio.jpg');
 		height: 750px;
+	}
 
 
-	}
-	.mandypost {
-		background-image: url('photos/mandypost.jpg');
-		height: 400px;
-	}
+
+
+
 
 
 
