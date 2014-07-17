@@ -1,5 +1,5 @@
 @media only screen and (max-width: 749px) {
-	.instrument, .pricesgrid {
+	.instrument {
 		width: 100%;
 	}
 }
@@ -66,14 +66,12 @@
 		position: relative;
 	
 	}
-
 	.headerimagetext {
 		position: absolute;
-		top: 55%;
+		top: 600px;
 		width: 100%;
 		padding: 5%;
 	}
-
 	.intro {
 		background-image: url('photos/guzhengwoods.jpg');
 		height: 1000px;
@@ -104,7 +102,6 @@
 	.recital {
 		background-image: url('photos/grouprecital.jpg');
 		height: 600px;
-	
 	}
 
 	.classes-pipa {
@@ -120,10 +117,6 @@
 	.prices {
 		background-image: url('photos/21.jpg');
 		height: 750px;
-	}
-
-	.pricesgrid {
-		padding: 3%;
 	}
 
 /*About Page*/
