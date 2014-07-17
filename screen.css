@@ -139,6 +139,7 @@ p {
   padding: 3%;
 }
 
+/*gallery page*/
 @media only screen and (max-width: 600px) {
   .instrument {
     width: 100%;
@@ -220,28 +221,39 @@ p {
 
   /*Classes Page*/
   .recital {
-    background-image: url(photos/grouprecital.jpg);
-    height: 650px;
+    background-image: url("photos/grouprecital.jpg");
+    height: 600px;
   }
 
   .classes-pipa {
-    background-image: url(photos/traditionalpipa.jpg);
+    background-image: url("photos/traditionalpipa.jpg");
     height: 750px;
   }
 
   .classes-guzheng {
-    background-image: url(photos/mandyblue.jpg);
+    background-image: url("photos/mandyblue.jpg");
     height: 750px;
   }
 
   .prices {
-    background-image: url(photos/21.jpg);
+    background-image: url("photos/21.jpg");
     height: 750px;
+  }
+
+  /*About Page*/
+  .bogofusion {
+    background-image: url("photos/bogofusion.jpg");
+    height: 600px;
   }
 
   /*Contact Page*/
   .contact {
-    background-image: url(photos/studio.jpg);
+    background-image: url("photos/studio.jpg");
     height: 750px;
+  }
+
+  .mandypost {
+    background-image: url("photos/mandypost.jpg");
+    height: 400px;
   }
 }

@@ -5,8 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
      <link rel="stylesheet" type="text/css" href="screen.css" media="all">
-<link rel="stylesheet" type="text/css" href="media.css" media="all">
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="media.css" media="all">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+
+    <style>
+    /* Prevents slides from flashing */
+    #slides {
+      display:none;
+    }
+    </style>
 
 
    
@@ -33,16 +40,22 @@
     </header> 
 <!--end header-->
 
+  <div id="slides" class="slides">
+    <img src="http://placehold.it/940x528">
+    <img src="http://placehold.it/940x528">
+    <img src="http://placehold.it/940x528">
+    <img src="http://placehold.it/940x528">
+    <img src="http://placehold.it/940x528">
+  </div>
+
 <br>
 
 <section class="main">
- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque convallis, lectus eget posuere sagittis, arcu quam consequat ipsum, sed posuere risus magna nec elit. Suspendisse quis lorem et urna pulvinar sollicitudin. Nam purus nibh, lobortis id posuere hendrerit, egestas quis dolor. Donec eget viverra sapien, et pellentesque mi. Ut in eleifend odio. Nam malesuada turpis risus. Sed tempor nibh quam, non elementum lorem sodales nec. Suspendisse potenti. Maecenas sit amet lobortis risus. Sed mi leo, pellentesque eu dapibus at, iaculis eget leo. Suspendisse potenti. Nulla vehicula pharetra mauris ut euismod.
+    <div class="gallerytext">
+        <p>Do you have any pictures that you would like to submit? Email them to us at chinesemusiclessons@gmail.com </p>
+    </div>
 
-Nullam non mi gravida, fermentum nisi sit amet, egestas mauris. Aenean nec ultrices dui. Nullam dapibus erat odio, id bibendum justo pellentesque sed. Sed ac urna in lorem imperdiet faucibus ac at libero. Donec lobortis, ipsum ut ultricies convallis, nunc quam fermentum enim, a convallis orci dolor quis est. Morbi semper sem vel elit mattis sagittis a vel ante. Integer lacus sem, fringilla ac elit vitae, vestibulum blandit erat. In sit amet dignissim urna. Donec tempor neque mauris, quis molestie velit iaculis quis. Sed luctus fringilla hendrerit.
 
-Nam porta massa malesuada elit sodales tristique. Maecenas congue odio et eros accumsan lobortis. Cras mollis, mi eget luctus porta, nisl velit vulputate tellus, vitae iaculis dolor tellus sit amet neque. Integer ac porttitor risus, in scelerisque est. Quisque ultrices condimentum fermentum. Nam pulvinar et tellus in ultrices. In feugiat vestibulum diam ut auctor. Etiam pellentesque ut sapien non tincidunt. Maecenas egestas lacus euismod nulla suscipit facilisis. Donec sed tempus tortor. Quisque bibendum eleifend justo ac dictum. Integer vel ullamcorper augue.
-
-Quisque volutpat pellentesque risus at tincidunt. Vivamus eu eleifend diam. Sed rutrum id magna aliquam sodales. Maecenas condimentum tincidunt massa, sit amet faucibus erat ornare ut. In tempus ante quis dui dapibus ornare. Vestibulum vestibulum, sem sed gravida tempus, sapien quam bibendum ante, vel eleifend lacus tellus quis tortor. Nunc elementum odio eu sodales facilisis. Integer et orci viverra, venenatis odio nec, commodo turpis. Ut placerat dui tortor, non aliquet risus euismod ut. Mauris imperdiet aliquet nunc vel imperdiet. Etiam sapien quam, eleifend sed vehicula ac, gravida vehicula lorem. Phasellus eleifend sapien sed velit ornare, nec cursus leo luctus. Quisque gravida, urna sed sollicitudin aliquet, diam tellus elementum lorem, a scelerisque dui turpis ut arcu.</p>
 </section>
 <!-- end main -->
 
@@ -51,10 +64,20 @@ Quisque volutpat pellentesque risus at tincidunt. Vivamus eu eleifend diam. Sed 
 
 <!-- end container -->
 
+<!-- Javascript for Slideshow -->
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="jquery.slides.min.js"></script>
 
+  <script>
+    $(function(){
+      $("#slides").slidesjs({
+        width: 940,
+        height: 528
+      });
+    });
+  </script>
 
-
-
+  <!-- End Javascript -->
 
 
 </body>
