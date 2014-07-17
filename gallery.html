@@ -4,7 +4,8 @@
     <title>Chinese Music Lessons With Cheung Wa Mandy</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
-     <link rel="stylesheet" type="text/css" href="screen.css" media="all">
+
+    <link rel="stylesheet" type="text/css" href="screen.css" media="all">
     <link rel="stylesheet" type="text/css" href="media.css" media="all">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
 
@@ -13,10 +14,12 @@
     #slides {
       display:none;
     }
+
+    ul.slidesjs-pagination {
+      display: none;
+    }
     </style>
 
-
-   
 </head>
 
 <!-- start body -->
@@ -41,13 +44,12 @@
 <!--end header-->
 
   <div id="slides" class="slides">
-    <img src="http://placehold.it/940x528">
-    <img src="http://placehold.it/940x528">
-    <img src="http://placehold.it/940x528">
-    <img src="http://placehold.it/940x528">
+    <img src="photos/slideshow/chinatown.jpg">
+    <img src="photos/slideshow/grouppipa.jpg">
+    <img src="photos/slideshow/reno.jpg">
+    <img src="photos/slideshow/studentguzheng.jpg">
     <img src="http://placehold.it/940x528">
   </div>
-
 <br>
 
 <section class="main">
@@ -71,8 +73,33 @@
   <script>
     $(function(){
       $("#slides").slidesjs({
-        width: 940,
-        height: 528
+        width: 2000,
+        height: 1000,
+        navigation: {
+      active: false,
+    },
+        // [boolean] Generates next and previous buttons.
+        // You can set to false and use your own buttons.
+        // User defined buttons must have the following:
+        // previous button: class="slidesjs-previous slidesjs-navigation"
+        // next button: class="slidesjs-next slidesjs-navigation"
+         play: {
+      active: true,
+        // [boolean] Generate the play and stop buttons.
+        // You cannot use your own buttons. Sorry.
+      effect: "fade",
+        // [string] Can be either "slide" or "fade".
+      interval: 2000,
+        // [number] Time spent on each slide in milliseconds.
+      auto: true,
+        // [boolean] Start playing the slideshow on load.
+      swap: true,
+        // [boolean] show/hide stop and play buttons
+      pauseOnHover: false,
+        // [boolean] pause a playing slideshow on hover
+      restartDelay: 2500
+        // [number] restart delay on inactive slideshow
+    }
       });
     });
   </script>

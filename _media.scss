@@ -1,5 +1,5 @@
 @media only screen and (max-width: 749px) {
-	.instrument{
+	.instrument, .pricesgrid {
 		width: 100%;
 	}
 }
@@ -120,6 +120,10 @@
 	.prices {
 		background-image: url('photos/21.jpg');
 		height: 750px;
+	}
+
+	.pricesgrid {
+		padding: 3%;
 	}
 
 /*About Page*/

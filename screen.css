@@ -126,7 +126,7 @@ header nav :active {
 
 /*gallery page*/
 @media only screen and (max-width: 749px) {
-  .instrument {
+  .instrument, .pricesgrid {
     width: 100%;
   }
 }
@@ -241,6 +241,10 @@ header nav :active {
   .prices {
     background-image: url("photos/21.jpg");
     height: 750px;
+  }
+
+  .pricesgrid {
+    padding: 3%;
   }
 
   /*About Page*/
